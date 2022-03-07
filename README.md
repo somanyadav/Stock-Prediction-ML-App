@@ -133,7 +133,7 @@ It’s called double exponential smoothing because it’s based on two smoothing
 * <b>l(t)</b> is level at time t.
 * <b>x(t)</b> is data value at time t.
 * <b>b(t)</b> is trend at time t.
-* Where <b>n</b> represents the number of time steps into the future. 
+* <b>n</b> represents the number of time steps into the future. 
 * <b>Alpha</b> and <b>Beta</b> are the smoothing parameters. <b>Alpha</b> is weight for the level and <b>Beta</b> is weight for the trend.
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
