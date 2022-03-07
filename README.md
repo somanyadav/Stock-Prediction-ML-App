@@ -131,7 +131,8 @@ It’s called double exponential smoothing because it’s based on two smoothing
 </p>
 
 * Where <b>n</b> represents the number of time steps into the future. 
-* <b>Alpha</b> and <b>Beta</b> are the smoothing parameters.
+* <b>Alpha</b> and <b>Beta</b> are the smoothing parameters. <b>Alpha</b> is weight for the level and <b>Beta</b> is weight for the trend.
+* <b>Ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
