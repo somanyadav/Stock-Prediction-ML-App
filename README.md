@@ -144,10 +144,7 @@ Three years later (1960), Peter R. Winters and Charles. C. Holt extended the ori
 
 #### Model
 
-It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data. Speaking of trend, it can be either additive or multiplicative:
-
-* <b>Additive trend</b> — trend grows linearly over time.
-* <b>Multiplicative trend</b> — trend doesn’t grow linearly and shows a curvature — even a slight one.
+Triple exponential smoothing is used to handle the time series data containing a seasonal component. Yet another parameter was added — Gamma — to address for the seasonal component. Just like trend, the seasonality can also be additive or multiplicative. 
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_LSv1WT3GuCWQdhjL_gNWBw.png" />
@@ -156,8 +153,9 @@ It’s called double exponential smoothing because it’s based on two smoothing
 * <b>l(t)</b> is level at time t.
 * <b>x(t)</b> is data value at time t.
 * <b>b(t)</b> is trend at time t.
+* <b>c(t)</b> is seasonality at time t.
 * <b>n</b> represents the number of time steps into the future. 
-* <b>Alpha</b> and <b>Beta</b> are the smoothing parameters. <b>Alpha</b> is weight for the level and <b>Beta</b> is weight for the trend.
+* <b>Alpha</b> and <b>Beta</b> and <b>Gamma</b> are the smoothing parameters. <b>Alpha</b> is weight for the level, <b>Beta</b> is weight for the trend and <b>Gamma</b> is weight for the seasonality.
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
 
