@@ -150,7 +150,7 @@ It’s called double exponential smoothing because it’s based on two smoothing
 * <b>Multiplicative trend</b> — trend doesn’t grow linearly and shows a curvature — even a slight one.
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_LSv1WT3GuCWQdhjL_gNWBw.png" />
 </p>
 
 * <b>l(t)</b> is level at time t.
