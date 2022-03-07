@@ -76,7 +76,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [Simple Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#simple-exponential-smoothing)
 * [Double Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#double-exponential-smoothing)
-* [Holt-Winter Model](https://vuejs.org/)
+* [Triple Exponential Smoothing](https://vuejs.org/)
 * [Auto Regressive Model](https://angular.io/)
 * [Moving Average Model](https://svelte.dev/)
 * [ARMA Model](https://laravel.com)
