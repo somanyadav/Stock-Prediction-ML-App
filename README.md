@@ -117,7 +117,19 @@ The underlying idea of an exponential smoothing model is that, at each period, t
 
 ### Double Exponential Smoothing
 
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+This method is also known as Holt’s method, after Charles C. Holt and his paper from 1957. It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data.
+
+#### Model
+
+The underlying idea of an exponential smoothing model is that, at each period, the model will learn a bit from the most recent demand observation and remember a bit of the last forecast it did. The magic about this is that the last forecast populated by the model already included a part of the previous demand observation and a part of the previous forecast. And so forth. That means that this previous forecast includes everything the model learned so far based on demand history. The smoothing parameter (or learning rate) alpha will determine how much importance is given to the most recent demand observation.
+
+<p align="center">
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
+</p>
+
+* <b>alpha</b> is a ratio (or a percentage) of how much importance the model will allocate to the most recent observation compared to the importance of demand history.
+* <b>alpha d{t-1}</b> represents the previous demand observation times the learning rate. You could say that the model attaches a certain weight (alpha) to the last demand occurrence.
+* <b>(1-alpha) f{t-1}</b> represents how much the model remembers from its previous forecast. Note that this is where the recursive magic happens as f{t-1} was itself defined as partially d{t-2} and f{t-2}.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
