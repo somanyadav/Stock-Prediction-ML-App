@@ -6,7 +6,9 @@
   <h3 align="center">Stock Prediction ML App</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    <i>
+    Never, ever argue with your trading system.
+    </i>
     <br />
     <br />
   </p>
