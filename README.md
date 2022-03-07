@@ -106,6 +106,8 @@ A simple exponential smoothing is one of the simplest ways to forecast a time se
 
 The underlying idea of an exponential smoothing model is that, at each period, the model will learn a bit from the most recent demand observation and remember a bit of the last forecast it did. The magic about this is that the last forecast populated by the model already included a part of the previous demand observation and a part of the previous forecast. And so forth. That means that this previous forecast includes everything the model learned so far based on demand history. The smoothing parameter (or learning rate) alpha will determine how much importance is given to the most recent demand observation.
 
+[![Product Name Screen Shot][https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_tEim5aRYlu346TLsYja_UA.png]](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_tEim5aRYlu346TLsYja_UA.png)
+
 ### Holt Model
 
 Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
