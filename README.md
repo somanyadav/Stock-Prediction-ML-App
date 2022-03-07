@@ -74,14 +74,18 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Simple Exponential Smoothing](https://nextjs.org/)
+* [Holt Model](https://reactjs.org/)
+* [Holt-Winter Model](https://vuejs.org/)
+* [Auto Regressive Model](https://angular.io/)
+* [Moving Average Model](https://svelte.dev/)
+* [ARMA Model](https://laravel.com)
+* [ARIMA Model](https://getbootstrap.com)
+* [Auto ARIMA](https://jquery.com)
+* [Linear Regression](https://jquery.com)
+* [Random Forest](https://jquery.com)
+* [Gradient Boosting](https://jquery.com)
+* [Support Vector Machines](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
