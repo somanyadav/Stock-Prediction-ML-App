@@ -140,7 +140,7 @@ It’s called double exponential smoothing because it’s based on two smoothing
 
 ### Triple Exponential Smoothing
 
-This method is also known as Holt’s method, after Charles C. Holt and his paper from 1957. 
+Three years later (1960), Peter R. Winters and Charles. C. Holt extended the original Holt’s method to address for seasonality. The algorithm was named after both of them — Holt-Winters’ method.
 
 #### Model
 
