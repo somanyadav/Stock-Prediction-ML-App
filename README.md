@@ -75,7 +75,7 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Simple Exponential Smoothing](https://nextjs.org/)
-* [Holt Model](https://reactjs.org/)
+* [Double Exponential Smoothing](https://reactjs.org/)
 * [Holt-Winter Model](https://vuejs.org/)
 * [Auto Regressive Model](https://angular.io/)
 * [Moving Average Model](https://svelte.dev/)
@@ -123,8 +123,8 @@ This method is also known as Holt’s method, after Charles C. Holt and his pape
 
 It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data. Speaking of trend, it can be either additive or multiplicative:
 
-* <br>Additive trend —</br> trend grows linearly over time.
-* <br>Multiplicative trend —</br> trend doesn’t grow linearly and shows a curvature — even a slight one.
+* <br>Additive trend</br> — trend grows linearly over time.
+* <br>Multiplicative trend</br> — trend doesn’t grow linearly and shows a curvature — even a slight one.
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
