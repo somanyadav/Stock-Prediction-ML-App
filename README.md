@@ -93,12 +93,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Models
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Simple Exponential Smoothing
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
