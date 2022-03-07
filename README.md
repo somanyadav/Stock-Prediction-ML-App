@@ -74,8 +74,8 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Simple Exponential Smoothing](https://nextjs.org/)
-* [Double Exponential Smoothing](https://reactjs.org/)
+* [Simple Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#simple-exponential-smoothing)
+* [Double Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#double-exponential-smoothing)
 * [Holt-Winter Model](https://vuejs.org/)
 * [Auto Regressive Model](https://angular.io/)
 * [Moving Average Model](https://svelte.dev/)
