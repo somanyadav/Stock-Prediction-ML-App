@@ -130,9 +130,8 @@ It’s called double exponential smoothing because it’s based on two smoothing
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
 </p>
 
-* <b>alpha</b> is a ratio (or a percentage) of how much importance the model will allocate to the most recent observation compared to the importance of demand history.
-* <b>alpha d{t-1}</b> represents the previous demand observation times the learning rate. You could say that the model attaches a certain weight (alpha) to the last demand occurrence.
-* <b>(1-alpha) f{t-1}</b> represents how much the model remembers from its previous forecast. Note that this is where the recursive magic happens as f{t-1} was itself defined as partially d{t-2} and f{t-2}.
+* Where <b>n</b> represents the number of time steps into the future. 
+* <b>Alpha</b> and <b>Beta</b> are the smoothing parameters.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
