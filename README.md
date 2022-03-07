@@ -115,7 +115,7 @@ The underlying idea of an exponential smoothing model is that, at each period, t
 * <b>(1-alpha) f{t-1}</b> represents how much the model remembers from its previous forecast. Note that this is where the recursive magic happens as f{t-1} was itself defined as partially d{t-2} and f{t-2}.
 
 
-### Holt Model
+### Double Exponential Smoothing
 
 Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
 
