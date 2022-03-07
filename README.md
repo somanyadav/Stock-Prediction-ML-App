@@ -155,7 +155,7 @@ Triple exponential smoothing is used to handle the time series data containing a
 * <b>b(t)</b> is trend at time t.
 * <b>c(t)</b> is seasonality at time t.
 * <b>n</b> represents the number of time steps into the future. 
-* <b>Alpha</b> and <b>Beta</b> and <b>Gamma</b> are the smoothing parameters. <b>Alpha</b> is weight for the level, <b>Beta</b> is weight for the trend and <b>Gamma</b> is weight for the seasonality.
+* <b>Alpha</b> (Data smoothing factor. The range is 0 < α <1.), <b>Beta</b> (Trend smoothing factor. The range is 0 < β < 1.) and <b>Gamma</b> (Seasonal change smoothing factor. The range is 0 < γ <1.) are the smoothing parameters. <b>Alpha</b> is weight for the level, <b>Beta</b> is weight for the trend and <b>Gamma</b> is weight for the seasonality.
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
 
