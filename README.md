@@ -138,6 +138,29 @@ It’s called double exponential smoothing because it’s based on two smoothing
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
 
+### Triple Exponential Smoothing
+
+This method is also known as Holt’s method, after Charles C. Holt and his paper from 1957. 
+
+#### Model
+
+It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data. Speaking of trend, it can be either additive or multiplicative:
+
+* <b>Additive trend</b> — trend grows linearly over time.
+* <b>Multiplicative trend</b> — trend doesn’t grow linearly and shows a curvature — even a slight one.
+
+<p align="center">
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
+</p>
+
+* <b>l(t)</b> is level at time t.
+* <b>x(t)</b> is data value at time t.
+* <b>b(t)</b> is trend at time t.
+* <b>n</b> represents the number of time steps into the future. 
+* <b>Alpha</b> and <b>Beta</b> are the smoothing parameters. <b>Alpha</b> is weight for the level and <b>Beta</b> is weight for the trend.
+* <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
