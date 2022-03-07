@@ -117,11 +117,14 @@ The underlying idea of an exponential smoothing model is that, at each period, t
 
 ### Double Exponential Smoothing
 
-This method is also known as Holt’s method, after Charles C. Holt and his paper from 1957. It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data.
+This method is also known as Holt’s method, after Charles C. Holt and his paper from 1957. 
 
 #### Model
 
-The underlying idea of an exponential smoothing model is that, at each period, the model will learn a bit from the most recent demand observation and remember a bit of the last forecast it did. The magic about this is that the last forecast populated by the model already included a part of the previous demand observation and a part of the previous forecast. And so forth. That means that this previous forecast includes everything the model learned so far based on demand history. The smoothing parameter (or learning rate) alpha will determine how much importance is given to the most recent demand observation.
+It’s called double exponential smoothing because it’s based on two smoothing parameters — Alpha (for level) and Beta (for trend). The algorithm solves the primary issue of simple exponential smoothing, as now the forecasts can account for the trend in historical data. Speaking of trend, it can be either additive or multiplicative:
+
+* <br>Additive trend —</br> trend grows linearly over time.
+* <br>Multiplicative trend —</br> trend doesn’t grow linearly and shows a curvature — even a slight one.
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_GtUcDLKCF9-vGixEGFSFlQ.png" />
