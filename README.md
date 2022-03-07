@@ -100,8 +100,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Simple Exponential Smoothing
 
-This is an example of how to list things you need to use the software and how to install them.
-
+A simple exponential smoothing is one of the simplest ways to forecast a time series. The basic idea of this model is to assume that the future will be more or less the same as the (recent) past. Thus, the only pattern that this model will learn from demand history is its level.
 
 ### Holt Model
 
