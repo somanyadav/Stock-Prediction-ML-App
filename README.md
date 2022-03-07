@@ -107,6 +107,7 @@ The underlying idea of an exponential smoothing model is that, at each period, t
 * <b>alpha d{t-1}</b> represents the previous demand observation times the learning rate. You could say that the model attaches a certain weight (alpha) to the last demand occurrence.
 * <b>(1-alpha) f{t-1}</b> represents how much the model remembers from its previous forecast. Note that this is where the recursive magic happens as f{t-1} was itself defined as partially d{t-2} and f{t-2}.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Double Exponential Smoothing
 
@@ -131,6 +132,8 @@ It’s called double exponential smoothing because it’s based on two smoothing
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Triple Exponential Smoothing
 
 Three years later (1960), Peter R. Winters and Charles. C. Holt extended the original Holt’s method to address for seasonality. The algorithm was named after both of them — Holt-Winters’ method.
@@ -150,7 +153,6 @@ Triple exponential smoothing is used to handle the time series data containing a
 * <b>n</b> represents the number of time steps into the future. 
 * <b>Alpha</b> (Data smoothing factor. The range is 0 < α <1.), <b>Beta</b> (Trend smoothing factor. The range is 0 < β < 1.) and <b>Gamma</b> (Seasonal change smoothing factor. The range is 0 < γ <1.) are the smoothing parameters. <b>Alpha</b> is weight for the level, <b>Beta</b> is weight for the trend and <b>Gamma</b> is weight for the seasonality.
 * <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
