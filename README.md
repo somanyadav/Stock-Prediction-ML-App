@@ -167,7 +167,7 @@ In a multiple regression model, we forecast the variable of interest using a lin
 Autoregressive models are remarkably flexible at handling a wide range of different time series patterns. We normally restrict autoregressive models to stationary data, in which case some constraints on the values of the parameters are required.
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.jpg" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.jpeg" />
 </p>
 
 * <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
