@@ -174,6 +174,21 @@ Autoregressive models are remarkably flexible at handling a wide range of differ
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Moving Average Model
+
+Rather than using past values of the forecast variable in a regression, a moving average model uses past forecast errors in a regression-like model.
+
+#### Model
+
+Autoregressive models are remarkably flexible at handling a wide range of different time series patterns. We normally restrict autoregressive models to stationary data, in which case some constraints on the values of the parameters are required.
+
+<p align="center">
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+</p>
+
+* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
