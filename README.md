@@ -158,7 +158,7 @@ Triple exponential smoothing is used to handle the time series data containing a
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Triple Exponential Smoothing
+### Auto Regressive Model
 
 In a multiple regression model, we forecast the variable of interest using a linear combination of predictors. In an autoregression model, we forecast the variable of interest using a linear combination of past values of the variable. The term autoregression indicates that it is a regression of the variable against itself.
 
