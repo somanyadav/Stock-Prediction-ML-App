@@ -164,7 +164,7 @@ In a multiple regression model, we forecast the variable of interest using a lin
 
 #### Model
 
-Triple exponential smoothing is used to handle the time series data containing a seasonal component. Yet another parameter was added — Gamma — to address for the seasonal component. Just like trend, the seasonality can also be additive or multiplicative. 
+Autoregressive models are remarkably flexible at handling a wide range of different time series patterns. We normally restrict autoregressive models to stationary data, in which case some constraints on the values of the parameters are required.
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_LSv1WT3GuCWQdhjL_gNWBw.png" />
