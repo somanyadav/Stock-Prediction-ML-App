@@ -170,13 +170,7 @@ Triple exponential smoothing is used to handle the time series data containing a
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_LSv1WT3GuCWQdhjL_gNWBw.png" />
 </p>
 
-* <b>l(t)</b> is level at time t.
-* <b>x(t)</b> is data value at time t.
-* <b>b(t)</b> is trend at time t.
-* <b>c(t)</b> is seasonality at time t.
-* <b>n</b> represents the number of time steps into the future. 
-* <b>Alpha</b> (Data smoothing factor. The range is 0 < α <1.), <b>Beta</b> (Trend smoothing factor. The range is 0 < β < 1.) and <b>Gamma</b> (Seasonal change smoothing factor. The range is 0 < γ <1.) are the smoothing parameters. <b>Alpha</b> is weight for the level, <b>Beta</b> is weight for the trend and <b>Gamma</b> is weight for the seasonality.
-* <b>ŷ(t+n)</b> is n-step-ahead forecast, at time t.
+* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
