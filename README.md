@@ -17,7 +17,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -40,7 +40,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+
 
 
 
@@ -76,11 +76,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Moving Average Model](https://svelte.dev/)
 * [ARMA Model](https://laravel.com)
 * [ARIMA Model](https://getbootstrap.com)
-* [Auto ARIMA](https://jquery.com)
 * [Linear Regression](https://jquery.com)
 * [Random Forest](https://jquery.com)
-* [Gradient Boosting](https://jquery.com)
-* [Support Vector Machines](https://jquery.com)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
