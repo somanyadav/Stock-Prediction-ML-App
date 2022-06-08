@@ -184,23 +184,23 @@ It is a time series model that accounts for very short-run autocorrelation. It b
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_oI1OSoT-9UlLZ09456LD-g.png" />
 </p>
 
-* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### ARMA Model
 
-Using ARIMA model, you can forecast a time series using the series past values.
+An ARMA model, or Autoregressive Moving Average model, is used to describe weakly stationary stochastic time series in terms of two polynomials. The first of these polynomials is for autoregression, the second for the moving average.
 
 #### Model
 
-It is a time series model that accounts for very short-run autocorrelation. It basically states that the next observation is the mean of every past observation.
+Often this model is referred to as the <b>ARMA(p,q) model</b>; where:
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
 </p>
 
-* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
+* p is the order of the autoregressive polynomial.
+* 
+* q is the order of the moving average polynomial.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -211,7 +211,7 @@ ARIMA, short for ‘Auto Regressive Integrated Moving Average’ is actually a c
 #### Model
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/Equation-4-min.png" />
 </p>
 
 * Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + Linear Combination of Lagged forecast errors (upto q lags)
