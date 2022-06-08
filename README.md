@@ -195,11 +195,11 @@ An ARMA model, or Autoregressive Moving Average model, is used to describe weakl
 Often this model is referred to as the <b>ARMA(p,q) model</b>; where:
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/arma.jpeg" />
 </p>
 
 * p is the order of the autoregressive polynomial.
-* 
+
 * q is the order of the moving average polynomial.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -222,7 +222,7 @@ ARIMA, short for ‘Auto Regressive Integrated Moving Average’ is actually a c
 
 ### Linear Regression
 
-Rather than using past values of the forecast variable in a regression, a moving average model uses past forecast errors in a regression-like model.
+Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
 
 #### Model
 
