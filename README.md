@@ -181,7 +181,7 @@ Rather than using past values of the forecast variable in a regression, a moving
 It is a time series model that accounts for very short-run autocorrelation. It basically states that the next observation is the mean of every past observation.
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_oI1OSoT-9UlLZ09456LD-g.png" />
 </p>
 
 * <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
