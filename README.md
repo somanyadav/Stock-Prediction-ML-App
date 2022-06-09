@@ -226,13 +226,19 @@ Linear regression analysis is used to predict the value of a variable based on t
 
 #### Model
 
-It is a time series model that accounts for very short-run autocorrelation. It basically states that the next observation is the mean of every past observation.
+Ordinary least squares (OLS) is a method to quantify the evaluation of the different regression lines. According to OLS, we should choose the regression line that minimizes the sum of the squares of the differences between the observed dependent variable and the predicted dependent variable.
 
 <p align="center">
   <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
 </p>
 
-* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
+We can find a line that best fits the observed data according to the evaluation standard of OLS. A general format of the line is:
+
+<p align="center">
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+</p>
+
+* Here, μᵢ is the residual term that is the part of yᵢ that cannot be explained by xᵢ.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
