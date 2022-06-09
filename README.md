@@ -235,7 +235,7 @@ Ordinary least squares (OLS) is a method to quantify the evaluation of the diffe
 We can find a line that best fits the observed data according to the evaluation standard of OLS. A general format of the line is:
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/11_BsIOb5DT_4L6ZOqsyK7M7A.png" />
 </p>
 
 * Here, μᵢ is the residual term that is the part of yᵢ that cannot be explained by xᵢ.
