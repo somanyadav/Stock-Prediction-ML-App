@@ -76,8 +76,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Moving Average Model](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#moving-average-model)
 * [ARMA Model](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#arma-model)
 * [ARIMA Model](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#arima-model)
-* [Linear Regression](https://jquery.com)
-* [Random Forest](https://jquery.com)
+* [Linear Regression](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#linear-regression)
+* [Random Forest](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#random-forest)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
