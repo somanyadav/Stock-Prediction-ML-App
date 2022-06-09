@@ -246,3 +246,5 @@ We can find a line that best fits the observed data according to the evaluation 
 
 Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It is an ensemble learning method, constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees. It can be used for both Classification and Regression problems in ML. However, it can also be used in time series forecasting, both univariate and multivariate dataset by creating lag variables and seasonal component variables manually.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
