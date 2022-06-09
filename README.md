@@ -229,7 +229,7 @@ Linear regression analysis is used to predict the value of a variable based on t
 Ordinary least squares (OLS) is a method to quantify the evaluation of the different regression lines. According to OLS, we should choose the regression line that minimizes the sum of the squares of the differences between the observed dependent variable and the predicted dependent variable.
 
 <p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
+  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/1_cfD_EOOIo6sG1Thch6QeTQ.png" />
 </p>
 
 We can find a line that best fits the observed data according to the evaluation standard of OLS. A general format of the line is:
