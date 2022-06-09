@@ -73,7 +73,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Double Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#double-exponential-smoothing)
 * [Triple Exponential Smoothing](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#triple-exponential-smoothing)
 * [Auto Regressive Model](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#auto-regressive-model)
-* [Moving Average Model](https://svelte.dev/)
+* [Moving Average Model](https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/README.md#moving-average-model)
 * [ARMA Model](https://laravel.com)
 * [ARIMA Model](https://getbootstrap.com)
 * [Linear Regression](https://jquery.com)
