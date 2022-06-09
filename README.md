@@ -246,17 +246,3 @@ We can find a line that best fits the observed data according to the evaluation 
 
 Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It is an ensemble learning method, constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees. It can be used for both Classification and Regression problems in ML. However, it can also be used in time series forecasting, both univariate and multivariate dataset by creating lag variables and seasonal component variables manually.
 
-#### Model
-
-It is a time series model that accounts for very short-run autocorrelation. It basically states that the next observation is the mean of every past observation.
-
-<p align="center">
-  <img src="https://github.com/somanyadav/Stock-Prediction-ML-App/blob/main/Images/autoc.JPG" />
-</p>
-
-* <b>ε(t)</b> is white noise. This is like a multiple regression but with lagged values of <b>y(t)</b> as predictors. We refer to this as an <b>AR(p) model</b>, an autoregressive model of order <b>p</b>.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
