@@ -52,14 +52,7 @@
 
 As any one of us could guess, the market is unstable and, more than often, unpredictable. For several decades researchers have toyed with time-series data to predict future values – of which the most challenging and potentially lucrative application is predicting the values of stocks for a given company. However, as expected, market change depends on many parameters of which only a bunch can be quantified, such as historical stock data, the volume of trade, current prices. Of course, fundamental factors such as a company’s intrinsic value, assets, quarterly performance, recent investments, and strategies all affect the traders’ trust in the company and thus the price of its stock. Only a few of the latter can be incorporated effectively into a mathematical model. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+While time series analysis is all about understanding the dataset; forecasting is all about predicting it. Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
