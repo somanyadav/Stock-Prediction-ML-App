@@ -51,6 +51,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 As any one of us could guess, the market is unstable and, more than often, unpredictable. For several decades researchers have toyed with time-series data to predict future values – of which the most challenging and potentially lucrative application is predicting the values of stocks for a given company. However, as expected, market change depends on many parameters of which only a bunch can be quantified, such as historical stock data, the volume of trade, current prices. Of course, fundamental factors such as a company’s intrinsic value, assets, quarterly performance, recent investments, and strategies all affect the traders’ trust in the company and thus the price of its stock. Only a few of the latter can be incorporated effectively into a mathematical model. 
+
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
