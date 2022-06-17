@@ -54,8 +54,6 @@ As any one of us could guess, the market is unstable and, more than often, unpre
 
 While time series analysis is all about understanding the dataset; forecasting is all about predicting it. Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Models Used
