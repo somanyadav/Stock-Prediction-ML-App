@@ -1,1 +1,10 @@
 streamlit
+numpy
+pandas
+datetime
+sktime==0.4.1
+sklearn
+statsmodels
+pmdarima
+#sqlite3==3.35.4
+yfinance
