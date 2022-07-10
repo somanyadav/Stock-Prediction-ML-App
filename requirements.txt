@@ -3,7 +3,7 @@ numpy
 pandas
 datetime
 sktime==0.4.1
-sklearn
+sklearn==1.0.2
 statsmodels
 pmdarima
 #sqlite3==3.35.4
