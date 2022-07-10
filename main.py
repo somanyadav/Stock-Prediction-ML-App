@@ -77,7 +77,7 @@ else:
             alpha_high = st.slider("Alpha_high",0.0,1.0,0.20)
         with col2:
             alpha_low = st.slider("Alpha_low",0.0,1.0,0.25)
-        from SES import SES_model
+        from Func import SES_model
         data_final, smap_low, smap_high, optim_alpha_high, optim_alpha_low = SES_model(data,horizon,alpha_high,alpha_low)
 
 #data_final
@@ -100,7 +100,7 @@ else:
             level_low = st.slider("Level low", 0.0, 1.0, 0.20)
         with col4:
             trend_low = st.slider("Trend Low", 0.0, 1.0, 0.20)
-        from SES import Holt_model
+        from Func import Holt_model
         data_final,smap_low,smap_high,optim_level_high,optim_level_low,optim_trend_high,optim_trend_low = Holt_model(data,horizon
                                                                         ,level_high,level_low,trend_high,trend_low)
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
@@ -125,7 +125,7 @@ else:
             level_low = st.slider("Level low", 0.0, 1.0, 0.20)
             trend_low = st.slider("Trend Low", 0.0, 1.0, 0.20)
             season_low = st.slider("Seasonal Low", 0.0, 1.0, 0.20)
-        from SES import Holt_Winter_Model
+        from Func import Holt_Winter_Model
         data_final, smap_low, smap_high, optim_level_high, optim_level_low, optim_trend_high, optim_trend_low, optim_season_high, optim_season_low = Holt_Winter_Model(data,horizon, level_high, level_low,trend_high,trend_low,season_high,season_low)
 
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
@@ -147,7 +147,7 @@ else:
             p_high = st.slider("Order of High", 1, 30, 1)
         with col2:
             p_low = st.slider("Order of Low", 1, 30, 1)
-        from SES import AR_model
+        from Func import AR_model
 
         data_final, smap_high, smap_low = AR_model(data,horizon,p_high,p_low)
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
@@ -163,7 +163,7 @@ else:
             q_high = st.slider("Order of High", 1, 30, 1)
         with col2:
             q_low = st.slider("Order of Low", 1, 30, 1)
-        from SES import AR_model
+        from Func import AR_model
         data_final, smap_high, smap_low = AR_model(data, horizon, q_high, q_low)
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
         col1, col2 = st.columns(2)
@@ -180,7 +180,7 @@ else:
         with col2:
             p_low = st.slider("Order of AR Low", 1, 30, 1)
             q_low = st.slider("Order of MA Low", 1, 30, 1)
-        from SES import ARMA_model
+        from Func import ARMA_model
         data_final, smap_high, smap_low = ARMA_model(data,horizon,p_high,p_low,q_high,q_low)
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
         col1, col2 = st.columns(2)
@@ -199,7 +199,7 @@ else:
             p_low = st.slider("Order of AR Low", 1, 30, 1)
             q_low = st.slider("Order of MA Low", 1, 30, 1)
             i_low = st.slider("Order of Differencing Low", 0, 10, 0)
-        from SES import ARIMA_model
+        from Func import ARIMA_model
         data_final, smap_high, smap_low = ARIMA_model(data,horizon,p_high,p_low,q_high,q_low,i_high,i_low)
         st.line_chart(data_final[['High', 'Forecast_High', 'Low', 'Forecast_Low']])
         col1, col2 = st.columns(2)
