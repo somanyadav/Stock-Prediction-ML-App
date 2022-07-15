@@ -30,11 +30,17 @@
     <li>
       <a href="#models">Models</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#simple-exponential-smoothing">Simple Exponential Smoothing</a></li>
+        <li><a href="#double-exponential-smoothing">Double Exponential Smoothing</a></li>
+        <li><a href="#triple-exponential-smoothing">Triple Exponential Smoothing</a></li>
+        <li><a href="#auto-regressive-model">Auto Regressive Model</a></li>
+        <li><a href="#moving-average-model">Moving Average Model</a></li>
+        <li><a href="#arma-model">ARMA Model</a></li>
+        <li><a href="#arima-model">ARIMA Model</a></li>
+        <li><a href="#linear-regression">Linear Regression</a></li>
+        <li><a href="#random-forest">Random Forest</a></li>
       </ul>
     </li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 
 
