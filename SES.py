@@ -17,8 +17,7 @@ def SES_model(data, horizon, alpha_high, alpha_low):
     fore_high.columns = ['Forecast_High']
     pred_high = res_high.predict(start=data.index[0], end=data.index[-1])
     smap_high = round(smape(data['High'], pred_high),3)
-    #pred_high = pred_high.to_frame()
-    #pred_high.columns = ['Pred_High']
+    
 
     ses_low = SimpleExpSmoothing(data['Low'], initialization_method='legacy-heuristic')
     res_low = ses_low.fit(smoothing_level=alpha_low, optimized=False)
@@ -27,8 +26,7 @@ def SES_model(data, horizon, alpha_high, alpha_low):
     fore_low.columns = ['Forecast_Low']
     pred_low = res_low.predict(start=data.index[0], end=data.index[-1])
     smap_low = round(smape(data['Low'], pred_low),3)
-    #pred_low = pred_low.to_frame()
-    #pred_low.columns = ['Pred_Low']
+    
 
     data_final = pd.concat([data,pred_low,pred_high, fore_high, fore_low], axis=1)
     data_final.loc[data.index[-1], 'Forecast_High'] = data_final.loc[data.index[-1], 'High']

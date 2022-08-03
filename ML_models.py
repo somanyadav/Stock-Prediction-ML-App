@@ -1,18 +1,21 @@
 import numpy as np
 import pandas as pd
-from sktime.forecasting.compose import ReducedRegressionForecaster #Install sktime ver. 0.4.1 to ensure compatibility with the code.
+from sktime.forecasting.compose import ReducedRegressionForecaster 
 from sktime.forecasting.model_selection import temporal_train_test_split
 from sktime.performance_metrics.forecasting import smape_loss
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor
 from sklearn.svm import LinearSVR
-#from xgboost import XGBRegressor
 
 def select_regressor(selection):
     regressors = {
         'Linear Regression': LinearRegression(),
+        'K-Nearest Neighbors': KNeighborsRegressor(),
         'Random Forest': RandomForestRegressor(),
+        'Gradient Boosting': GradientBoostingRegressor(),
+        'Support Vector Machines': LinearSVR(),
+        'Extra Trees': ExtraTreesRegressor(),
     }
 
     return regressors[selection]
@@ -31,9 +34,9 @@ def forecast(data, horizon, model):
                                                 strategy='recursive')
     forecast_high.fit(high, fh=fh)
     fore_high = forecast_high.predict(fh).to_numpy()
-    # print(type(fore_high))
+    
     fore_high = np.insert(fore_high, 0, data['High'][-1])
-    # print(fore_high)
+    
     fore_high = pd.DataFrame(fore_high, index=index)
     fore_high.columns = ['Forecast_High']
 
@@ -46,7 +49,7 @@ def forecast(data, horizon, model):
     fore_low.columns = ['Forecast_Low']
 
     data_final = pd.concat([data, fore_high, fore_low], axis=1)
-   # return data_final
+    
 
     y_train, y_test = temporal_train_test_split(high, test_size=horizon)
     window_length = len(data['High'])-horizon-1
@@ -66,3 +69,6 @@ def forecast(data, horizon, model):
     smape_low =  smape_loss(y_pred, y_test)
 
     return [data_final,smape_high ,smape_low]
+
+
+

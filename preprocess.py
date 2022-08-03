@@ -9,26 +9,28 @@ def smape(y_true, y_pred):
 
 def preprocessing(data,interval):
     if interval=='1d':
-        data = data.asfreq('B') #set frequency as Business Day
+        data = data.asfreq('B') 
         data.ffill(inplace=True)
 
     elif interval == '1wk':
-        data.dropna(inplace = True) # weekly/monthly data has days on which dividends are paid, while all other values as NA
-        if int(str((data.index[-1]-data.index[-2]))[0])<7: #if the last data point is of today and today is not monday
+        data.dropna(inplace = True) 
+        if int(str((data.index[-1]-data.index[-2]))[0])<7: 
             data = data.iloc[:-1,]
-        data = data.asfreq('W-MON') #week  monday
+        data = data.asfreq('W-MON') 
     elif interval == '1mo':
         data.dropna(inplace=True)
-        if data.index[-1].day!=1: #if the last data point is of today not the first of month
+        if data.index[-1].day!=1: 
             data = data.iloc[:-1,]
-        data = data.asfreq('MS') #month start
+        data = data.asfreq('MS') 
     elif interval == '3mo':
         data.dropna(inplace=True)
-        if data.index[-2].month-data.index[-1].month <3:  # if the last data point is of today not the first of month
+        if data.index[-2].month-data.index[-1].month <3:  
             data = data.iloc[:-1,]
         freq = 'QS-'+data.index[-1].month_name()[0:3].upper()
-        data = data.asfreq(freq)  # quarter start
+        data = data.asfreq(freq)  
     return data
+
+
 
 def process_high(data,res_high ,fore_high):
     fore_high = fore_high.to_frame()
