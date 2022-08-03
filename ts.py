@@ -56,8 +56,8 @@ else:
             horizon = st.sidebar.slider("Forecast horizon", 1, 15, 5)
 
     model = st.selectbox('Model',['Simple Exponential Smoothing','Halt Model','Holt-Winter Model','Auto Regressive Model',
-                                  'Moving Average Model','ARMA Model', 'ARIMA Model','AutoARIMA',
-                                  'Linear Regression','Random Forest', 'Gradient Boosting','Support Vector Machines',
+                                  'Moving Average Model','ARMA Model', 'ARIMA Model',
+                                  'Linear Regression','Random Forest',
                                   ])
 
     if model=='Simple Exponential Smoothing':
